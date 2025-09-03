@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>保持思考、等待、斋戒</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2025-09-03T08:17:32.480Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Your Name</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新的认知与流转</title>
+    <link href="http://example.com/2025/06/21/hello-world/"/>
+    <id>http://example.com/2025/06/21/hello-world/</id>
+    <published>2025-06-21T04:00:00.000Z</published>
+    <updated>2025-09-03T08:17:32.480Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;&lt;span id=&quot;新的认知与流转&quot;&gt;新的认知与流转&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;本文是对于 20250616-0622 的记录与思考&lt;/p&gt;
+&lt;p&gt;👋 哈喽朋友们，又来到了新的一周！&lt;br&gt;我这周本想更新 vlog，没想到周五用了 Claude Code</summary>
+        
+      
+    
+    
+    
+    <category term="生活随笔" scheme="http://example.com/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="思考" scheme="http://example.com/tags/%E6%80%9D%E8%80%83/"/>
+    
+    <category term="技术" scheme="http://example.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+</feed>
