@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>保持思考、等待、斋戒</title>
+  <title>臣服实验|量化|定投</title>
   
-  
+  <subtitle>i1qw&#39;blog</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
@@ -10,7 +10,7 @@
   <id>http://example.com/</id>
   
   <author>
-    <name>Your Name</name>
+    <name>i1qw</name>
     
   </author>
   
