@@ -6,7 +6,7 @@
   <link href="https://i1qw.github.io/atom.xml" rel="self"/>
   
   <link href="https://i1qw.github.io/"/>
-  <updated>2025-09-03T19:31:10.764Z</updated>
+  <updated>2025-09-04T06:43:23.456Z</updated>
   <id>https://i1qw.github.io/</id>
   
   <author>
@@ -17,39 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>从500U到2000U：我的量化策略实盘</title>
-    <link href="https://i1qw.github.io/2025/09/04/01%E5%AE%9E%E7%9B%98%E6%B5%8B%E8%AF%95/"/>
-    <id>https://i1qw.github.io/2025/09/04/01%E5%AE%9E%E7%9B%98%E6%B5%8B%E8%AF%95/</id>
+    <title>2025年1-8月总结</title>
+    <link href="https://i1qw.github.io/2025/09/04/2025%E5%B9%B41-8%E6%9C%88%E6%80%BB%E7%BB%93/"/>
+    <id>https://i1qw.github.io/2025/09/04/2025%E5%B9%B41-8%E6%9C%88%E6%80%BB%E7%BB%93/</id>
     <published>2025-09-03T16:00:00.000Z</published>
-    <updated>2025-09-03T19:31:10.764Z</updated>
+    <updated>2025-09-04T06:43:23.456Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;过去的一年多，我都在开发和测试量化交易策略。&lt;br&gt;去年还没有学习编程和AI，是纯手工交易。没日没夜地盯着四台显示器，20个左右的标的，等开仓信号，等平仓信号。熬夜累人不说，效率还很低。&lt;br&gt;今年DeepSeek爆火，我放弃了扣子，改用DeepSeek继续写代码。第一遍代</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>收益折返</title>
-    <link href="https://i1qw.github.io/2025/09/04/02%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84%E9%9A%BE%E9%A2%98/"/>
-    <id>https://i1qw.github.io/2025/09/04/02%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84%E9%9A%BE%E9%A2%98/</id>
-    <published>2025-09-03T16:00:00.000Z</published>
-    <updated>2025-09-04T04:51:23.026Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;经常看着账户资产创新高，没有手动一键平仓，盈利再度回撤。&lt;br&gt;趋势跟踪策略，给趋势一定的发展空间，但这个空间往往是盈利的，不平仓，利润会回撤。平仓，又变成了主观。&lt;br&gt;有两次是持仓6个币种，一次盈利18%，一次盈利12%，最终全部回撤。遇到这样的情况，一次还好，次数多了</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;我的量化交易之路：策略、回撤与心态修炼&lt;/strong&gt;&lt;br&gt;过去的一年多，我都在开发和测试量化交易策略。去年还没有学习编程和AI，是纯手工交易。没日没夜地盯着屏幕，20个左右的标的，等开仓信号，等平仓信号。熬夜累人不说，效率还很低。&lt;/p&gt;
+&lt;p&gt;今年D</summary>
         
       
     
