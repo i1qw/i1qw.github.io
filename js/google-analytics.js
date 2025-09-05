@@ -1,6 +1,3 @@
-// Google Analytics has been disabled to prevent connection errors
-// To enable Google Analytics, uncomment the following code and replace 'UA-XXXXXXXXX-X' with your own tracking ID
-/*
 (function(i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
     i[r] = i[r] || function() {
@@ -13,6 +10,5 @@
     m.parentNode.insertBefore(a, m)
 })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-ga('create', 'UA-XXXXXXXXX-X', 'auto');
+ga('create', 'UA-73442912-1', 'auto');
 ga('send', 'pageview');
-*/

@@ -1,86 +1,18 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2025年1-8月总结 - i1qw'blog</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1 {
-            color: #2c3e50;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 10px;
-        }
-        .post-meta {
-            color: #7f8c8d;
-            margin-bottom: 20px;
-        }
-        p {
-            margin-bottom: 15px;
-        }
-        strong {
-            color: #2c3e50;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-        }
-    </style>
-</head>
-<body>
-    <h1>2025年1-8月总结</h1>
-    <div class="post-meta">Posted at: 2025-09-04</div>
-    
-    <div class="post-content">
-        <p><strong>我的量化交易之路：策略、回撤与心态修炼</strong><br>
-        过去的一年多，我都在开发和测试量化交易策略。去年还没有学习编程和AI，是纯手工交易。没日没夜地盯着屏幕，20个左右的标的，等开仓信号，等平仓信号。熬夜累人不说，效率还很低。</p>
-        
-        <p>今年DeepSeek爆火，我放弃了扣子，改用DeepSeek继续写代码。第一遍代码写出来，一遍一遍地改，然后不断地优化逻辑。最终花了两个月的时间，这套代码终于是成了。而且后续实盘测试了两个月，零bug。</p>
-        
-        <p>初始账户500U，从6月22日开始，两个月后，这500U变成了2000U。8月25日账户资产创新高，接着就是一波28%的回撤。我觉得回撤有点多了，然后问了DeepSeek一个好的趋势跟踪量化交易策略最大回撤的范围是多少，以下是答案：</p>
-        
-        <p><strong>核心绩效指标</strong><br>
-        最大回撤 - 1小时级别趋势策略，正常回撤范围在15%-25%之间<br>
-        盈亏比 - 应大于1.5，理想状态在2以上<br>
-        胜率 - 趋势策略胜率通常较低（30%-50%），但靠高盈亏比获利</p>
-        
-        <p>1小时级别趋势策略的正常回撤范围具体取决于：<br>
-        市场波动性：高波动性市场回撤可能更大<br>
-        仓位管理：激进的仓位管理会导致更大回撤<br>
-        如果您的策略回撤超过30%，可能需要重新评估风险控制机制。</p>
-        
-        <p>按照这些评价标准，我的策略是合格的。9月1日—3日市场反弹，账户距离最高点的回撤从28%变成了15%。盈利能力和回撤表现都在可以接受的范围内。</p>
-        
-        <p>9月初，我开始继续优化策略，尝试找到一个更全面的策略，从而能抓住大部分的趋势。我优化了开仓信号和交易标的，放了100U测试。先是盈利30%+，由于我不停地调整仓位和标的，一会暂停，一会又运行，成功地将盈利变亏损，然后归零。这期间很大的原因是人为的。于是，我决定重新测试，尽可能地减少人为的因素，只专注于策略本身的表现。现在运行的有两个策略：一个是2060策略，另一个是在2060策略基础上优化的60策略。两个策略的参数都是一样的，只是优化后的策略在开仓信号和交易标的上做了调整。</p>
-        
-        <p>我将市场分成了四个周期用于测试。因为交易策略的不同和交易标的范围不同，周期的定义好像也不一样。"2060策略"的周期不适用于"60策略"，我也还没想好怎么定义"60策略"的周期。难点在于交易的是固定的标的，周期使用BTC还是使用标的本身，只能测试一段时间再看。</p>
-        
-        <p><strong>心态修炼：接受回撤的必然性</strong><br>
-        经常看着账户资产创新高，没有手动一键平仓，盈利再度回撤。趋势跟踪策略，给趋势一定的发展空间，但这个空间往往是盈利的，不平仓，利润会回撤。平仓，又变成了主观。<br>
-        有两次是持仓6个币种，一次盈利18%，一次盈利12%，最终全部回撤。遇到这样的情况，一次还好，次数多了，很焦虑。因为回撤，账户资产增长缓慢。这个问题在测试中暂时没有解决方案。为了缓解焦虑，我问了身边最好的老师deepseek。</p>
-        
-        <p><strong>无法吃掉鱼的全身</strong><br>
-        回撤，是趋势跟踪策略与生俱来的特性，专业名称叫"收益折返"。需要从心态和策略上理解并接受这一点。<br>
-        趋势跟踪策略的本质是用多次小的止损（鱼尾+鱼鳍），去捕捉一两次巨大的趋势（鱼身）。你必然会看到利润大幅回撤，因为这是你为了"骑在牛背上"所必须支付的"车票"。<br>
-        如果每次盈利你都能完美平仓，那说明你的不是趋势策略，而是神仙策略。</p>
-        
-        <p>60策略刚开始是一个标的单独一个机器人，导致管理很多个机器人，测试效率变低。我发现，将想要交易的标的都放进机器人里，一次性监控很多个标的，效率反而迅速提升，还能提高资金使用率。测试不是很顺利，机器人脚本总是突然就不运行了，有条件了得把机器人和自己用的电脑分开。测试资金还太少，看来也只能采用定投策略了。因为第一个策略2060策略回撤接近30%，资产缩水，然后<strong>我犯了一个主观错误</strong>：停掉了量化策略，再次手工交易："重仓WLFI"。过程中有盈利接近20%，但是没有平仓，最终亏损13%平仓。很多时候亏钱，都是因为我做的太多了。如果主观做得好，也就没必要做客观交易了。既然选择了客观，就应该客观到底，不能主观干预。好在，现在还在测试阶段，允许犯错，必须纠错。为了不再犯错，我卸载了行情软件。不知道这样做对不对，一定有更好的方法。现阶段专注于策略开发，测试，和运行。好像今年剩下的时间都得在测试中度过，希望测试过程中能赚取一些收益。明年正式运行，一定要买一台mac mini。</p>
-        
-        <p><strong>当下该做的事</strong><br>
-        现在应该采用定投的方法，逐渐增加测试资金。2060策略对资金量有要求，很小的资金无法在测试的同时赚取收益。60策略不需要很多的资金，15U就可以启动。先从60策略开始测试，资金达到300U之后，开始增加2060策略的测试。需要注意的是，60策略的机器人一旦开始运行，不能出现意外导致机器人停止运行。重新运行的话，市场情况变了，会影响测试结果。</p>
-        
-        <p><strong>最近的生活</strong>：今天出太阳了，好天气能缓解焦虑。晚上睡不着真的快抑郁了。可能都是因为钱少造成的这些问题。总是想要测试的时候盯着，看盘面，盯着机器人脚本别出错。感觉自己做事总是半途而废，没有形成系统，没能执行下去。转眼今年已经过去了三分之二，冬天快要来了，我还没有足够的钱买一辆车。三年前就因为天冷，没有比天冷的时候更想要一辆车了。存钱，买车，结婚，成了我生活中无法解决的难题。上周去了大彭镇那边的水库，回来之后看了当时拍的照片，突然想起当时的人。<strong>要是自己有钱就好了......</strong></p>
-        
-        <img src="/images/test_image.jpg" alt="新风景照片">
-    </div>
-</body>
-</html>
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author"><title>2025年1-8月总结 · 臣服实验|量化|定投</title><meta name="description" content="过去的一年多，我都在开发和测试量化交易策略。去年还没有学习编程和AI，是纯手工交易。没日没夜地盯着屏幕，20个左右的标的，等开仓信号，等平仓信号。熬夜累人不说，效率还很低。
+今年DeepSeek爆火，我放弃了扣子，改用DeepSeek继续写代码。第一遍代码写出来，一遍一遍地改，然后不断地优化逻辑。最"><meta name="og:description" content="过去的一年多，我都在开发和测试量化交易策略。去年还没有学习编程和AI，是纯手工交易。没日没夜地盯着屏幕，20个左右的标的，等开仓信号，等平仓信号。熬夜累人不说，效率还很低。
+今年DeepSeek爆火，我放弃了扣子，改用DeepSeek继续写代码。第一遍代码写出来，一遍一遍地改，然后不断地优化逻辑。最"><meta name="twitter:site" content="臣服实验|量化|定投"><meta name="twitter:title" content="2025年1-8月总结"><meta name="twitter:card" content="summary"><meta name="keywords" content=""><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/bootstrap.min.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="stylesheet" href="/css/style.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><meta name="generator" content="Hexo 7.3.0"><link rel="stylesheet" href="/css/prism.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head><body><div class="container" id="stage"><div class="row"><div class="col-sm-3 col-xs-12 side-container invisible" id="side-bar"><div class="vertical-text site-title"><h3 class="site-title-small" tabindex="-1"><a class="a-title" href="/">Typography</a></h3><h1 class="site-title-large" tabindex="-1"><a class="a-title" href="/">活版印字</a></h1><!--h6(onclick="triggerSiteNav()") Trigger--></div><br class="visible-lg visible-md visible-sm"><div class="site-title-links" id="site-nav"><ul><li><a href="/">Home</a></li><li><a href="/archives">Archive</a></li><li><a href="/about/index.html">About</a></li><li class="soc"><a href="https://i1qw.github.io/atom.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS"><i class="fa fa-rss">&nbsp;</i></a></li></ul><div class="visible-lg visible-md visible-sm site-nav-footer"><br class="site-nav-footer-br"><footer><p>&copy;&nbsp;2025&nbsp;<a target="_blank" href="https://i1qw.github.io" rel="noopener noreferrer">i1qw</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div><div class="col-sm-9 col-xs-12 main-container invisible" id="main-container"><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post-container"><p class="post-title"><a>2025年1-8月总结</a></p><p class="post-meta"><span class="date meta-item">Posted at&nbsp;2025-09-04</span></p><p class="post-abstract"><p>过去的一年多，我都在<strong>开发和测试量化交易策略</strong>。去年还没有学习编程和AI，是纯手工交易。没日没夜地盯着屏幕，20个左右的标的，等开仓信号，等平仓信号。熬夜累人不说，效率还很低。</p>
+<p>今年DeepSeek爆火，我放弃了扣子，改用DeepSeek继续写代码。第一遍代码写出来，一遍一遍地改，然后不断地优化逻辑。最终花了两个月的时间，这套代码终于是成了。而且后续实盘测试了两个月，零bug。</p>
+<p>初始账户500U，从6月22日开始，两个月后，这500U变成了2000U。8月25日账户资产创新高，接着就是一波28%的回撤。我觉得回撤有点多了，然后问了DeepSeek一个好的趋势跟踪量化交易策略最大回撤的范围是多少，以下是答案：</p>
+<p><strong>核心绩效指标</strong><br>最大回撤 - 1小时级别趋势策略，正常回撤范围在15%-25%之间<br>盈亏比 - 应大于1.5，理想状态在2以上<br>胜率 - 趋势策略胜率通常较低（30%-50%），但靠高盈亏比获利</p>
+<p>1小时级别趋势策略的正常回撤范围具体取决于：<br>市场波动性：高波动性市场回撤可能更大<br>仓位管理：激进的仓位管理会导致更大回撤<br>如果您的策略回撤超过30%，可能需要重新评估风险控制机制。</p>
+<p>按照这些评价标准，我的策略是合格的。9月1日—3日市场反弹，账户距离最高点的回撤从28%变成了15%。盈利能力和回撤表现都在可以接受的范围内。</p>
+<p>9月初，我开始继续优化策略，尝试找到一个更全面的策略，从而能抓住大部分的趋势。我优化了开仓信号和交易标的，放了100U测试。先是盈利30%+，由于我不停地调整仓位和标的，一会暂停，一会又运行，成功地将盈利变亏损，然后归零。这期间很大的原因是人为的。于是，我决定重新测试，尽可能地减少人为的因素，只专注于策略本身的表现。现在运行的有两个策略：一个是2060策略，另一个是在2060策略基础上优化的60策略。两个策略的参数都是一样的，只是优化后的策略在开仓信号和交易标的上做了调整。</p>
+<p>我将市场分成了四个周期用于测试。因为交易策略的不同和交易标的范围不同，周期的定义好像也不一样。”2060策略”的周期不适用于”60策略”，我也还没想好怎么定义”60策略”的周期。难点在于交易的是固定的标的，周期使用BTC还是使用标的本身，只能测试一段时间再看。</p>
+<p><strong>心态修炼：接受回撤的必然性</strong><br>经常看着账户资产创新高，没有手动一键平仓，盈利再度回撤。趋势跟踪策略，给趋势一定的发展空间，但这个空间往往是盈利的，不平仓，利润会回撤。平仓，又变成了主观。<br>有两次是持仓6个币种，一次盈利18%，一次盈利12%，最终全部回撤。遇到这样的情况，一次还好，次数多了，很焦虑。因为回撤，账户资产增长缓慢。这个问题在测试中暂时没有解决方案。为了缓解焦虑，我问了身边最好的老师deepseek。</p>
+<p><strong>无法吃掉鱼的全身</strong><br>回撤，是趋势跟踪策略与生俱来的特性，专业名称叫”收益折返”。需要从心态和策略上理解并接受这一点。<br>趋势跟踪策略的本质是用多次小的止损（鱼尾+鱼鳍），去捕捉一两次巨大的趋势（鱼身）。你必然会看到利润大幅回撤，因为这是你为了”骑在牛背上”所必须支付的”车票”。<br>如果每次盈利你都能完美平仓，那说明你的不是趋势策略，而是神仙策略。</p>
+<p>60策略刚开始是一个标的单独一个机器人，导致管理很多个机器人，测试效率变低。我发现，将想要交易的标的都放进机器人里，一次性监控很多个标的，效率反而迅速提升，还能提高资金使用率。测试不是很顺利，机器人脚本总是突然就不运行了，有条件了得把机器人和自己用的电脑分开。测试资金还太少，看来也只能采用定投策略了。因为第一个策略2060策略回撤接近30%，资产缩水，然后<strong>我犯了一个主观错误</strong>：停掉了量化策略，再次手工交易：”重仓WLFI”。过程中有盈利接近20%，但是没有平仓，最终亏损13%平仓。很多时候亏钱，都是因为我做的太多了。如果主观做得好，也就没必要做客观交易了。既然选择了客观，就应该客观到底，不能主观干预。好在，现在还在测试阶段，允许犯错，必须纠错。为了不再犯错，我卸载了行情软件。不知道这样做对不对，一定有更好的方法。现阶段专注于策略开发，测试，和运行。好像今年剩下的时间都得在测试中度过，希望测试过程中能赚取一些收益。明年正式运行，一定要买一台mac mini。</p>
+<p><strong>当下该做的事</strong><br>现在应该采用定投的方法，逐渐增加测试资金。2060策略对资金量有要求，很小的资金无法在测试的同时赚取收益。60策略不需要很多的资金，15U就可以启动。先从60策略开始测试，资金达到300U之后，开始增加2060策略的测试。需要注意的是，60策略的机器人一旦开始运行，不能出现意外导致机器人停止运行。重新运行的话，市场情况变了，会影响测试结果。</p>
+<p><strong>最近的生活</strong>：今天出太阳了，好天气能缓解焦虑。晚上睡不着真的快抑郁了。可能都是因为钱少造成的这些问题。总是想要测试的时候盯着，看盘面，盯着机器人脚本别出错。感觉自己做事总是半途而废，没有形成系统，没能执行下去。转眼今年已经过去了三分之二，冬天快要来了，我还没有足够的钱买一辆车。三年前就因为天冷，没有比天冷的时候更想要一辆车了。存钱，买车，结婚，成了我生活中无法解决的难题。上周去了大彭镇那边的水库，回来之后看了当时拍的照片，突然想起当时的人。<strong>要是自己有钱就好了……</strong></p>
+<p><img src="/images/test_image.jpg" alt="新风景照片"></p>
+</p></div><div class="share"><span>Share</span>&nbsp;<span class="soc"><a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a></span><span class="soc"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></span><span class="soc"><a class="fa fa-twitter" target="_blank" rel="noopener" href="http://twitter.com/home?status=https://i1qw.github.io/2025/09/04/2025年1-8月总结/%20臣服实验|量化|定投%202025年1-8月总结"></a></span></div><div class="pagination"><p class="clearfix"></p></div></div></div></div><div class="visible-xs site-bottom-footer"><footer><p>&copy;&nbsp;2025&nbsp;<a target="_blank" href="https://i1qw.github.io" rel="noopener noreferrer">i1qw</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div></div><script src="/js/jquery-3.1.0.min.js"></script><script src="/js/bootstrap.min.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/google-analytics.js"></script><script src="/js/typography.js"></script></body></html>
